@@ -1,5 +1,5 @@
 # Customizable-Web-Music-Player-for-Jellyfin
-While creating my Jellyfin media server on my homelab, i figured that there is no service or Application, even anything near a good and well made Service to play my music from Jellyfin that fullfilled all my needs. Thats why im creating my own and hoping for feedbank regarding the HTML-Code. The Good thing about this Webserver is that there is no need for a specific OS or Application/ Software of any kind. Any Device that has a Browser can acce
+While creating my Jellyfin media server on my homelab, i figured that there is no service or Application, even anything near a good and well made Service to play my music from Jellyfin that fullfilled all my needs. Thats why im creating my own and hoping for feedbank regarding the HTML-Code. The Good thing about this Webserver is that there is no need for a specific OS or Application/ Software of any kind. Any Device that has a Browser can access.
 
 
 To begin with the Code is in HTML, to use the Webserver you need to get it onto your own Jellyfin Server and host it from there. 
