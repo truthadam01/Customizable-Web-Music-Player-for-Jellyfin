@@ -23,7 +23,7 @@ Windows: C:\Program Files\Jellyfin\Server\jellyfin-web\
 
 2. Upload the HTML from this Post into this folder.
 
-3. hurray - The Server is now available at http://YOUR_IP:8096/Webserver (If Your Jellyfin IP looks like this http://YOUR_IP:8096/web/#/home (Standart))
+3. hurray - The Server is now available at http://YOUR_IP:8096/Webserver.html (If Your Jellyfin IP looks like this http://YOUR_IP:8096/web/#/home (Standart))
 
 Anything like logging in with your own Data should be working completely fine as of now. 
 
