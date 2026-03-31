@@ -18,6 +18,7 @@ As said before, to use this Music Player you need to host the HTML on your Jelly
 1. Locate your Jellyfin Web Folder
 
 Linux: /usr/share/jellyfin/web/
+
 Windows: C:\Program Files\Jellyfin\Server\jellyfin-web\
 
 2. Upload the HTML from this Post into this folder.
