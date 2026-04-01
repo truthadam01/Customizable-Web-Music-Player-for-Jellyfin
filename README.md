@@ -11,6 +11,8 @@ Design:
 
 I personally love underwhelming and slim designs, because that shifts the Focus on the Album Art. Thats why, as seen in the Screenshots the design is in a clean Black-white Aesthetic. High Contrasts allow the Interface to just be a Interface and not too much. No flashy Animations, no flashy Typography. Just Features that do their damn Job. Thats why it is extremely Important that every Song and Music File has a High Quality Cover Art. Well Maintained Metadata is a requirement for the best Experience. 
 
+!Look at the Bottom for Screenshots!
+
 Installation: 
 
 As said before, to use this Music Player you need to host the HTML on your Jellyfin Server to avoid connection issues (CORS) 
@@ -45,3 +47,20 @@ This is a Stateless Client. Any Type of Passwort that is typed into the Webclien
 As of Last - Contact: 
 
 If you have any type of Feedback or recommendations, please open an Issue, submit a Pull Req. or message me on truth_adam01@proton.me 
+
+The Start Menu looks like that: 
+<img width="1013" height="718" alt="PRJ 4" src="https://github.com/user-attachments/assets/8b7f73ce-7c48-4f07-acef-bbe2aded0cc8" />
+
+The Albumoverview looks like that: 
+<img width="995" height="754" alt="PRJ 3" src="https://github.com/user-attachments/assets/2e91078e-e2ee-4448-8c2f-7a6d986bb016" />
+
+The Album Menu looks like this: 
+<img width="986" height="830" alt="PRJ 2" src="https://github.com/user-attachments/assets/8dea4de1-179c-4a6f-aede-e0353450a06e" />
+
+The Song Overview looks like that: 
+<img width="1004" height="808" alt="PRJ 5" src="https://github.com/user-attachments/assets/c761e72a-56d9-428b-9f15-b6d27701478e" />
+
+The Player looks like this: 
+<img width="968" height="818" alt="PRJ 1" src="https://github.com/user-attachments/assets/7633110e-f741-4c0b-a66c-4e1d3cd851b4" />
+
+This Screenshots are from a Laptop Screen, obv. the Website scales to any Tab Size and looks a bit different in any Device. \
