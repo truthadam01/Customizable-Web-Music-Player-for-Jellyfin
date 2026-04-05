@@ -1,14 +1,17 @@
 # Nautica-Web-Music-Player-for-Jellyfin
 
 ## Problem:
-While creating my Jellyfin media server on my homelab, i figured that there is no service or Application, even anything near a good and well made Service to play my music from Jellyfin that fullfilled all my needs. Most services are pretty solid and useable but bring many Problems, first of all using a Application from any App Store brings the Risk of using Code and Software that isnt safe or Private. Second the design is mostly boring and uncustomizable. Especially soon you relize that most Developers cant be using their own Software because its so boring and brings only the most basic Features. 
+While creating my Jellyfin media server on my homelab, I discovered that there's no good, well-made music player that fulfills all my needs. Most services have these common roblems:
+- App Store applications often contain unsafe or non-private code
+- Designs are boring and uncustomizable
+- Developers clearly don't use their own software — it lacks basic features and usability, feels boring
 
 ## Solution:
 Building a Standalone Web Client that can be hosted on any Media Server that has Jellyfin running. Any Device that is in the Network is able to connect to the Webserver and has access to all Music and all Features while having the same design on all the different Devices. No need for installation, any specific OS or Software. Any Device with a Browser can access the Music. 
 
-## Design:
+## Design Philosophy
 
-I personally love underwhelming and slim designs, because that shifts the Focus on the Album Art. Thats why, as seen in the Screenshots the design is in a clean Black-white Aesthetic. High Contrasts allow the Interface to just be a Interface and not too much. No flashy Animations, no flashy Typography. Just Features that do their damn Job. Thats why it is extremely Important that every Song and Music File has a High Quality Cover Art. Well Maintained Metadata is a requirement for the best Experience. 
+I love underwhelming, slim designs because they shift focus to the album art. The interface uses a clean black-and-white aesthetic with high contrast, no flashy animations or typography. Features should just work.
 
 !Look at the Bottom for Screenshots!
 
@@ -16,20 +19,24 @@ I personally love underwhelming and slim designs, because that shifts the Focus 
 
 As said before Metadata is very Important for the Design Language of this Music Player. 
 
-I recommmend the following Tools for all your Music Files
+Metadata quality is crucial for this design language. Recommended tools:
 
-- Musicbrains Picard
-- MP3TAG
+- **MusicBrainz Picard** — Automatic metadata fetching
+- **MP3Tag** — Manual metadata editing
 
-These 2 are pretty much the best, to fing all relevant info about your Music. 
+These are the best tools for finding and maintaining music information.
 
-Privacy 
+## Privacy
 
-This is a Stateless Client. Any Type of Passwort that is typed into the Webclient is safed locally in your Browsers Storage, i do not have access to any Type of Token of Login Credentials. No data is send Thrid Party, your Data is safe. The Code communicates directly with your Own Server. 
+Nautica is a stateless client. Any passwords you enter are saved locally in your browser's storage — I have no access to tokens or login credentials. No data is sent to third parties. The code communicates directly with your own server.
 
 ## As of Last - Contact: 
 
 If you have any type of Feedback or recommendations, please open an Issue, submit a Pull Req. or message me on truth_adam01@proton.me 
+
+## Installation
+
+See [README.md](README.md) for detailed setup instructions.
 
 ## Screenshots:
 
@@ -51,3 +58,7 @@ The Player looks like this:
 This Screenshots are from a Laptop Screen, obv. the Website scales to any Tab Size and looks a bit different in any Device. \
 
 legal: i do not own this images and pictures that are shown for demonstration, these are strictly placeholders for your own Media and they do not come with the code. 
+
+## License
+
+GPL-3.0 — see [LICENSE](LICENSE)
