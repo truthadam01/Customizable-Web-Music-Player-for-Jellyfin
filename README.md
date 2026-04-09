@@ -2,9 +2,9 @@
 
 ## Problem:
 While creating my Jellyfin media server on my homelab, I discovered that there's no good, well-made music player that fulfills all my needs. Most services have these common roblems:
-- App Store applications often contain unsafe or non-private code
+- App Store applications often contain unsafe or non private code
 - Designs are boring and uncustomizable
-- Developers clearly don't use their own software — it lacks basic features and usability, feels boring
+- Developers clearly don't use their own software it lacks basic features and usability, feels boring
 
 ## Solution:
 Building a Standalone Web Client that can be hosted on any Media Server that has Jellyfin running. Any Device that is in the Network is able to connect to the Webserver and has access to all Music and all Features while having the same design on all the different Devices. No need for installation, any specific OS or Software. Any Device with a Browser can access the Music. 
